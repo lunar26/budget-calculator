@@ -111,6 +111,10 @@
       background: #ebf8ff;
       border: 1.5px solid #bee3f8;
       grid-column: span 2;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 16px;
     }
 
     .result-item .label {
@@ -199,7 +203,7 @@
           <div class="label">주간 유입 신청 가능 총액</div>
           <div class="value" id="w-weekly-inflow">—<span class="unit">원</span></div>
         </div>
-        <div class="result-item highlight" style="grid-column: span 2; display: flex; justify-content: space-between; align-items: center;">
+        <div class="result-item highlight">
           <div>
             <div class="tag">일일 예산</div>
             <div class="label">일일 유입 신청 가능 예산</div>
@@ -247,7 +251,7 @@
           <div class="label">남은 유입 가능 총액</div>
           <div class="value" id="r-inflow">—<span class="unit">원</span></div>
         </div>
-        <div class="result-item highlight" style="grid-column: span 2; display: flex; justify-content: space-between; align-items: center;">
+        <div class="result-item highlight">
           <div>
             <div class="tag">일일 예산</div>
             <div class="label">일일 유입 신청 가능 예산</div>
